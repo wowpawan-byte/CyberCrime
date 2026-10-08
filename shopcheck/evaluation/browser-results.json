@@ -1,0 +1,83 @@
+{
+  "ranAt": "2026-10-08T08:13:56.626Z",
+  "browser": "149.0.7827.55",
+  "checks": [
+    {
+      "name": "Offline demo home renders with three primary scenarios",
+      "passed": true
+    },
+    {
+      "name": "Meadow branding and locally bundled font pair load",
+      "passed": true
+    },
+    {
+      "name": "Installed extension inspects real local page: Review",
+      "passed": true
+    },
+    {
+      "name": "Demo registration is explicitly labelled",
+      "passed": true
+    },
+    {
+      "name": "Mutation-driven extension rescan changes to High Risk",
+      "passed": true
+    },
+    {
+      "name": "Demo payment input is disabled",
+      "passed": true
+    },
+    {
+      "name": "Shared evidence renderer shows the changed verdict",
+      "passed": true
+    },
+    {
+      "name": "Toolbar badge reflects High Risk",
+      "passed": true
+    },
+    {
+      "name": "Local demo uses no RDAP cache or external registry lookup",
+      "passed": true
+    },
+    {
+      "name": "Settings open and persist registration preference",
+      "passed": true
+    },
+    {
+      "name": "Impersonation plus recent registration produces High Risk",
+      "passed": true
+    },
+    {
+      "name": "Benign control produces only honest HTTP warning",
+      "passed": true
+    },
+    {
+      "name": "New independent merchant is not accused of fraud",
+      "passed": true
+    },
+    {
+      "name": "Unavailable registry stays unknown",
+      "passed": true
+    },
+    {
+      "name": "DOM inspection excludes input values, textarea and editable text",
+      "passed": true
+    },
+    {
+      "name": "Demo home has no mobile horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Demo store has no mobile horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Live build excludes synthetic registration fixtures",
+      "passed": true
+    },
+    {
+      "name": "No uncaught page or popup JavaScript errors",
+      "passed": true
+    }
+  ],
+  "claim": "Integration correctness only; not measured real-world fraud detection accuracy."
+}

@@ -1,0 +1,24 @@
+/* Meadow 1.1: distinct brand typography, comfortable evidence reading. */
+body{font:400 14px/1.55 Inter,Arial,sans-serif}
+h1,h2,h3,.wordmark{font-family:Rajdhani,sans-serif;font-weight:600}
+.wordmark{font-size:30px;letter-spacing:-.5px;gap:10px}
+.mark{font-family:Rajdhani,sans-serif;font-size:26px;letter-spacing:-1px;padding:0 1px 2px 0;transform:none;border-radius:9px}
+.eyebrow{font-size:10px;letter-spacing:1.7px}
+.hero-domain{font-size:18px;letter-spacing:-.35px;line-height:1.4}
+.identity{font-size:12px;margin-top:6px}
+.status-label{font-size:11px}
+.verdict h1{font-size:34px;letter-spacing:-.5px}
+.verdict-copy{font-size:14px;line-height:1.55}
+.guidance{margin-top:10px}
+.count{font-size:11px}
+.demo-tag{font-size:11px;line-height:1.55}
+details.check summary{font-size:13px;padding:13px 0;gap:9px}
+.check-state{font-size:10px;letter-spacing:0}
+.check-body{font-size:12px;line-height:1.6}
+.coverage{font-size:12px;line-height:1.6}
+.app-footer{font-size:11px}
+.text-button{font-size:12px}
+.setting strong{font-size:14px}
+.setting small,.privacy-note p{font-size:12px;line-height:1.6}
+.secondary-button{font-size:12px}
+.empty p{font-size:14px}

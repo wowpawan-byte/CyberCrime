@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meadow</title><link rel="stylesheet" href="ui.css"><link rel="stylesheet" href="meadow.css"></head>
+<body class="popup"><main id="app">
+<header class="app-header"><a class="wordmark" href="#" aria-label="Meadow home"><span class="mark" aria-hidden="true">m</span>meadow</a><button class="icon-button" id="settings-toggle" aria-label="Open settings" aria-expanded="false">⚙</button></header>
+<div id="settings" hidden>
+ <div class="section-heading"><span class="eyebrow">YOUR PREFERENCES</span><button class="text-button" id="settings-close">Done</button></div>
+ <h1>Quiet by design.</h1><p class="muted">A few checks. A little more clarity.</p>
+ <label class="setting"><span><strong>Registration lookup</strong><small>Send the domain to RDAP to check its age.</small></span><input type="checkbox" id="remoteLookup" role="switch"></label>
+ <label class="setting"><span><strong>On-page warnings</strong><small>One notice when the risk level increases.</small></span><input type="checkbox" id="notifications" role="switch"></label>
+ <div class="privacy-note"><span class="eyebrow">STAYS ON YOUR DEVICE</span><p>Page inspection and decisions happen locally. Typed information is never read. RDAP sees the domain and your network address when lookup is enabled.</p></div>
+ <button id="clear-cache" class="secondary-button">Clear registration cache</button><p id="settings-status" role="status" class="muted"></p>
+</div>
+<div id="inspection"><div id="result" aria-live="polite"><section class="empty"><span class="orb">…</span><h1>Taking a look.</h1><p class="muted">Reading the current page.</p></section></div><footer class="app-footer"><span id="footnote">Local checks · No AI</span><button class="text-button" id="rescan">↻ Check again</button></footer></div>
+</main><script type="module" src="popup.js"></script></body></html>
